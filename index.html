@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Terminal</title>
+        
+       <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="bodyContainer">
+        <div id="screenContainer" class="container">
+            <div class="menu">
+                <div class="buttons-flex" style="flex-basis: 10%">
+                    <div id="redButton" class="button red"></div>
+                    <div id="yellowButton" class="button yellow"></div>
+                    <div id="greenButton" class="button green"></div>
+                </div>
+                <div class="title">
+                    <a href="https://github.com/rakesh-adam" target="_blank">
+                        <h1>
+                            <i class="fab fa-globe"></i>
+                            Rakesh Matta
+                        </h1>
+                    </a>
+                </div>
+                <div style="flex-basis: 10%"></div>
+            </div>
+            <div id="app"></div>
+            <div class="title">
+                <div class="bottom-bar">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    <a href="https://github.com/rakesh-adam" target="_blank" class="bottom-name"> Rakesh Matta</a>
+                    <div class="blink-dot"></div>
+                </div>
+            </div>
+        </div>
+
+       <script src="script.js"></script>
+    </body>
+</html>
